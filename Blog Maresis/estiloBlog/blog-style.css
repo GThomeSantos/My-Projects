@@ -1,0 +1,300 @@
+/* CONFIGURAÇÃO PADRÃO*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 10 ;
+    padding: 0 2%;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* HEADER */
+
+header .container {
+    padding: 20px 2%;
+    margin: auto;
+}
+
+header .logo img {
+    cursor: pointer;
+    border-radius: 50%;
+    height: 80px;
+}
+
+
+header .menu ul {
+    list-style-type: none;
+    padding: 25px
+}
+
+header .menu ul li {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 6px;
+    font-size: 15px;
+    padding: 4px;
+}
+
+
+header .menu ul li:not(.nao) {
+    border-right: 1px solid #737373;
+    padding-right: 10px;
+}
+
+header .menu ul li input[type=text] {
+    padding: 2px 2%;
+    width: 100px;
+    border-radius: 6px;
+    margin-left: 4px;
+}
+
+
+header .menu ul li i {
+    margin-left: 5px;
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    color: #737373;
+}
+
+
+/* BOX-CAPTURA */
+
+section.box-captura {
+    background-color: #F29494;
+}
+
+section.box-captura .bar-top {
+    background-image: -webkit-background-image: linear-gradient(-45deg, rgba(255,255,255,.15)25%, transparent 25%, transparent 50%, rgba(255,255,255,.15)50%, rgba(255,255,255,.15)75%, transparent 75%, transparent);
+	background-image: -webkit-linear-gradient(-45deg, rgba(255,255,255,.15)25%, transparent 25%, transparent 50%, rgba(255,255,255,.15)50%, rgba(255,255,255,.15)75%, transparent 75%, transparent);
+	background-image: -moz-linear-gradient(-45deg, rgba(255,255,255,.15)25%, transparent 25%, transparent 50%, rgba(255,255,255,.15)50%, rgba(255,255,255,.15)75%, transparent 75%, transparent);
+	background-image: linear-gradient(-45deg, rgba(255,255,255,.15)25%, transparent 25%, transparent 50%, rgba(255,255,255,.15)50%, rgba(255,255,255,.15)75%, transparent 75%, transparent);
+    height: 17px;
+    background-size: 20px;
+}
+
+section.box-captura .wrapper-captura{
+    padding: 2% 17%;
+    text-align: center;
+}
+
+section.box-captura .box-single-chamada{
+    width: 33.33%;
+    float: left;
+    padding-top: 35px;
+}
+
+section.box-captura .box-single-chamada h3{
+    font-size: 20px;
+}
+
+section.box-captura .box-single-icon {
+    width: 33.33%;
+    float: left;
+}
+
+section.box-captura .box-single-icon i {
+    font-size: 140px;
+    cursor: pointer;
+}
+
+section.box-captura .box-single-icon i:hover {
+    transform: scale(1.09, 1.09);
+}
+
+section.box-captura .box-single-captura {
+    width: 33.33%;
+    float: left;
+    padding-top: 35px;
+}
+
+section.box-captura .box-single-captura input {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0.3px solid rgb(225, 225, 225);
+}
+
+section.box-captura .box-single-captura button {
+    margin-top: 5px;
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0.3px solid rgb(225, 225, 225);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section.box-captura .box-single-captura button:hover {
+    transform: scale(1.09, 1.09);
+}
+
+section.box-captura .box-single-captura button i {
+    float: right;
+    padding-top: 3px;
+}
+
+section.box-captura .box-single-captura p {
+    font-size: 17px;
+    text-align: left;
+    margin-top: 4px;
+}
+
+
+/* CONTENT */
+
+section.content {
+    padding: 0 10%;
+    background-color: #F2E9D8;
+    display: flex;
+
+}
+
+div.post {
+    background-color: #F2C299;
+    width: 80%;
+}
+
+div.post .titulo-artigo {
+    margin: 10px 15px;
+    padding: 5px;
+}
+
+div.post article.artigo {
+    padding: 5px;
+    margin: 4%;
+}
+
+
+div.sidebar {
+    background-color: #BF6D4E;
+    width: 20%;
+    color: white;
+}
+
+div.sidebar .sidebar-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+div.sidebar .sidebar-conteudo .noticias{
+    margin-top: 20%;
+    margin: 10% 10%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: gray;
+    color: white;
+}
+
+.footer-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.footer-section h2 {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.footer-section h2::after {
+    content: '';
+    width: 4rem;
+    height: 0.2rem;
+    background: white;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+}
+
+.footer-section p {
+    transition: all 0.2s linear;
+    margin-bottom: 0.6em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-section p:hover {
+    transition: all 0.2s linear;
+    transform: translate(4px);
+}
+
+.footer-section a:hover {
+    color: #F29494;
+}
+
+.footer-item {
+    margin: 1rem;
+}
+
+.footer-item ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footer-item li {
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.social ul li {
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.social ul li:hover {
+    color: #F29494;
+    transform: scale(1.1);
+    transition: all 0.2s linear;
+}
+
+@media screen and (max-width: 320px) {
+    .footer-section {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 2rem;
+    }
+}
