@@ -1,0 +1,31 @@
+body {
+    background-color: #BA71D9;
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+.valid {
+    display: block;
+    animation: valid 1s forwards;
+}
+
+.fa-spinner {
+    width: 20px;
+    font-size: large;
+    margin: auto;
+    color: #fff;
+    animation: spin 2s infinite;
+}
+
+#check {
+    display: none;
+    width: 20px;
+    font-size: large;
+    margin: auto;
+    color: #fff;
+}

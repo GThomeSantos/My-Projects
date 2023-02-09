@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário Inteligente</title>
+        <link rel="stylesheet" href="css/fonts/all.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/formulario.css">
+        <link rel="stylesheet" href="css/label.css">
+        <link rel="stylesheet" href="css/input.css">
+        <link rel="stylesheet" href="css/button.css">
+    </head>
+    <body>
+
+        <form method="post" onsubmit="">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" name="username" autocomplete="off">
+
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" autocomplete="off">
+
+            <div class="container">
+
+                <button type="submit" id="connect" class="button type3">
+                    <span>Confirmar</span>
+                </button>
+
+                <i class="fa-solid fa-spinner" id="spinner" aria-hidden="true"></i>
+                <i class="fa-solid fa-check" id="check" aria-hidden="true"></i>
+
+            </div>
+        </form>
+    </body>
+    <script src="JS/smart.js"></script>
+</html>

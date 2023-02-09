@@ -1,0 +1,17 @@
+button {
+    display: none;
+    width: 40%;
+    height: 100%;
+    background: #F28705;
+    border-radius: 25px;
+    color: #fff;
+    border: 0;
+    margin-left: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s;
+}
+
+button:hover {
+    box-shadow: 0 0 15px #F2B705;
+}
