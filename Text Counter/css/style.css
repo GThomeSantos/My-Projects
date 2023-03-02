@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Tilt Neon', cursive;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background: #069DBF;
+    color: #D9D9D9;
+}
+
+
+
+@media (max-width: 20rem) {
+    .container{
+        width: 100%;
+    }
+}

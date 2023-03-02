@@ -1,0 +1,17 @@
+textarea {
+    width: 90%;
+    resize: none;
+    height: 10rem;
+    background: #069DBF;
+    outline: none;
+    padding: 1rem 0.6rem;
+    margin-bottom: 2rem;
+    color: #D9D9D9;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 1rem;
+    border: transparent;
+}
+
+textarea::placeholder {
+    color: #D9D9D9;
+}
