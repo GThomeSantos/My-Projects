@@ -1,0 +1,7 @@
+#container {
+    width: 360px;
+    background: #F1D7C3;
+    border-radius: 10px;
+    height: fit-content;
+    padding-bottom: 10px;
+}

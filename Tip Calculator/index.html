@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/container.css">
+    <link rel="stylesheet" href="./css/h1.css">
+    <link rel="stylesheet" href="./css/p.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/input.css">
+    <link rel="stylesheet" href="./css/service.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/totalTip.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Tip Calculator / Calculadora de Gorgetas</title>
+</head>
+<body>
+
+    <div id="container">
+
+        <h1>Calculadora de Gorgetas</h1>
+
+        <div id="calculator">
+
+            <form>
+
+                <p>Valor da conta</p>
+
+                <input type="text" id="amount" placeholder="Valor da conta">
+
+                <p>Avalie nosso serviço!</p>
+
+                <select id="service">
+
+                    <option disabled selected value="0">Avaliação</option>
+                    <option value="0.25">25&#37; &#45; Muito Bom</option>
+                    <option value="0.20">20&#37; &#45; Bom</option>
+                    <option value="0.15">15&#37; &#45; Regular</option>
+                    <option value="0.10">10&#37; &#45; Ruim</option>
+                    <option value="0.05">5&#37; &#45; Muito Ruim</option>
+
+                </select>
+
+            </form>
+
+            <p>Pessoas dividindo a conta</p>
+
+            <input type="text" id="persons" placeholder="Número de pessoas">
+
+            <button type="button" id="calculate">Calcule a gorgeta!</button>
+
+        </div>
+
+        <div id="totalTip">
+
+            <sup>R$</sup><span id="tip">0,00</span>
+
+            <small id="each">Cada</small>
+
+        </div>
+
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

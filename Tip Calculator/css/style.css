@@ -1,0 +1,6 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #FFF2EB;
+    display: grid;
+    place-items: center;
+}
