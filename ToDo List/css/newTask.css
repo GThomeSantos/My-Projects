@@ -1,0 +1,38 @@
+#newtask {
+    position: relative;
+    padding: 30px 20px;
+}
+
+#newtask input {
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #000;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Fragment Mono', monospace;
+    font-size: 15px;
+    border: 2px solid #DDDBFF;
+}
+
+#newtask input:focus {
+    outline: none;
+    border-color: #fff;
+}
+
+#newtask button {
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #fff;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Fragment Mono', monospace;
+}
