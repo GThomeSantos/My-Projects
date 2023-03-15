@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #083359;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+input {
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.weather {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.weather h2 {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+/*
+.weather img {
+    transform: scale(2);
+}
+*/
